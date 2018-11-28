@@ -68,10 +68,11 @@ After the installation and creation of your first project…for subsequent proje
 
 * Part I only needs to be done the first time you install this!
 * Part II should be done every new project you start. Then, move on to Part III.
+
 * Otherwise, when you are merely making changes to projects,
-In **Terminal**, type:
+in **Terminal**, type:
 - 1. `cd Desktop`
 - 2. `cd myproj`
 - 3. `atom src/myproj/core.clj`
-NOTE: Modify this file! If you want to try an example, I suggest looking at Dave’s class code. Copy and paste in **core.clj**, and save the file.
+NOTE: Modify this file! If you want to try an example, I suggest looking at Dave’s [class code](https://github.com/Projamming/ClassCode/blob/master/11_13_inclass). Copy and paste in **core.clj**, and save the file.
 - 4. Perform Part III.
