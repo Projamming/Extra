@@ -52,20 +52,23 @@ NOTE: Atom (text editor) will open. Replace whatever is in the core.clj file wit
 
 In Terminal, type: 
 1.	`lein repl`
-2.	After the prompt user =>, type `(use 'overtone.live)` and hit Enter.
-3.	`(use ‘myproj.core :reload)` + Enter.
-4.	`(baz)` + Enter.
 
-NOTE: *baz* can be changed to whatever name you desire; remember to change it in other places as well (in the core.clj file)!
+After the prompt user =>, type:
+
+2. `(use 'overtone.live)` and hit Enter.
+3. `(use ‘myproj.core :reload)` + Enter.
+4. `(baz)` + Enter.
+
+NOTE: *baz* is the function that we are calling -- therefore, the name can change depending on our core.clj file!
 
 5.	You should hear a sound if your file loaded correctly. Type `(stop)` and hit Enter to stop the sound.
 
-## After...
-After the installation and creation of your first project…
+## Part IV. After...
+After the installation and creation of your first project…for subsequent project, please note the following:
 
 * Part I only needs to be done the first time you install this!
 * Part II should be done every new project you start. Then, move on to Part III.
-* Otherwise, when you are merely making changes to your projects, in Terminal type:
+* Otherwise, when you are merely making changes to projects, in Terminal, type:
 - 1. `cd Desktop`
 - 2. `cd myproj`
 - 3. `atom src/myproj/core.clj` (and modify the file)
