@@ -4,12 +4,12 @@ Overtone Installations for Mac (5-10 min).
 # Part I. Software Installation
 1.	Install Homebrew
 2.	Install Supercollider and get it ready:
-..1. Copy the following to the window “Untitled” on the left side:
+⋅⋅1. Copy the following to the window “Untitled” on the left side:
 ~~~
 s.boot;
 s.options.maxLogins = 50
 ~~~
-..2.	Click Language > Evaluate File
+⋅⋅2.	Click Language > Evaluate File
 
 3.	Install Atom
 4.	In Terminal, type: brew cask install java
@@ -59,10 +59,10 @@ After the installation and creation of your first project…
 * Part I only needs to be done the first time you install this!
 * Part II should be done every new project you start. Then, move on to Part III.
 * Otherwise, when you are merely making changes to your projects, just do
-..1. (Terminal) `cd Desktop`
-..2. (Terminal) `cd myproj`
-..3. `atom src/myproj/core.clj` (and modify the file)
+⋅⋅1. (Terminal) `cd Desktop`
+⋅⋅2. (Terminal) `cd myproj`
+⋅⋅3. `atom src/myproj/core.clj` (and modify the file)
 If you want to try modifying the file to see how you can test another code, a good example is Dave’s class code. Just copy and paste in core.clj! Remember to save the file!
-..4. Perform Part III.
+⋅⋅4. Perform Part III.
 
 
