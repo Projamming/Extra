@@ -9,11 +9,11 @@ Overtone Installations for Mac (5-10 min).
 s.boot;
 s.options.maxLogins = 50
 ~~~
-- 2.	Click Language > Evaluate File
+- 2.	Click **Language > Evaluate File**
 
 3.	Install [Atom](https://atom.io/)
 
-In Terminal, type:
+In **Terminal**, type:
 
 4.	`brew cask install java`
 5.	`brew install clojure`
@@ -21,7 +21,7 @@ In Terminal, type:
 
 ## Part II. New Project and Setting Configuration
 
-In Terminal, type:
+In **Terminal**, type:
 1.	`cd Desktop`
 2.	`lein new myproj`
 
@@ -30,7 +30,7 @@ NOTE: *myproj* can be changed to whatever name you desire; remember to change it
 3.	`cd myproj`
 4.	`atom project.clj`
 
-NOTE: Atom (text editor) will open. Replace whatever is in the project.clj file with the code below, and save and quit:
+NOTE: Atom (text editor) will open. Replace whatever is in the **project.clj** file with the code below, and save and quit:
 
 ~~~
 (defproject myproj "1.0"
@@ -40,7 +40,7 @@ NOTE: Atom (text editor) will open. Replace whatever is in the project.clj file 
 5.	`lein deps`
 6.	`atom src/myproj/core.clj`
 
-NOTE: Atom (text editor) will open. Replace whatever is in the core.clj file with the code below (which creates music), and save (don’t quit). In the future, 	this is the file that you should change to create your own music!
+NOTE: Atom (text editor) will open. Replace whatever is in the **core.clj** file with the code below (which creates music), and save (don’t quit). In the future, 	this is the file that you should change to create your own music!
 
 ~~~
 (ns myproj.core
@@ -50,7 +50,7 @@ NOTE: Atom (text editor) will open. Replace whatever is in the core.clj file wit
 
 ## Part III. Run Project
 
-In Terminal, type: 
+In **Terminal**, type: 
 1.	`lein repl`
 
 After the prompt user =>, type:
@@ -59,7 +59,7 @@ After the prompt user =>, type:
 3. `(use ‘myproj.core :reload)` + Enter.
 4. `(baz)` + Enter.
 
-NOTE: *baz* is the function that we are calling -- therefore, the name can change depending on our core.clj file!
+NOTE: *baz* is the function that we are calling -- therefore, the name can change depending on our **core.clj** file!
 
 5.	You should hear a sound if your file loaded correctly. Type `(stop)` and hit Enter to stop the sound.
 
@@ -68,11 +68,10 @@ After the installation and creation of your first project…for subsequent proje
 
 * Part I only needs to be done the first time you install this!
 * Part II should be done every new project you start. Then, move on to Part III.
-* Otherwise, when you are merely making changes to projects, in Terminal, type:
+* Otherwise, when you are merely making changes to projects,
+In **Terminal**, type:
 - 1. `cd Desktop`
 - 2. `cd myproj`
-- 3. `atom src/myproj/core.clj` (and modify the file)
-If you want to try modifying the file to see how you can test another code, a good example is Dave’s class code. Just copy and paste in core.clj! Remember to save the file!
+- 3. `atom src/myproj/core.clj`
+NOTE: Modify this file! If you want to try an example, I suggest looking at Dave’s class code. Copy and paste in **core.clj**, and save the file.
 - 4. Perform Part III.
-
-
