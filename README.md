@@ -2,8 +2,8 @@ Overtone Installations for Mac (5-10 min).
 ======
 
 # Part I. Software Installation
-1.	Install Homebrew
-2.	Install Supercollider and get it ready:
+1.	Install (https://brew.sh/, "Homebrew")
+2.	Install (https://supercollider.github.io/download, "Supercollider") and get it ready:
 ⋅⋅1. Copy the following to the window “Untitled” on the left side:
 ~~~
 s.boot;
@@ -11,10 +11,12 @@ s.options.maxLogins = 50
 ~~~
 ⋅⋅2.	Click Language > Evaluate File
 
-3.	Install Atom
-4.	In Terminal, type: brew cask install java
-5.	In Terminal, type: brew install clojure
-6.	In Terminal, type: brew install leiningen
+3.	Install (https://atom.io/, "Atom")
+
+In Terminal, type:
+4.	`brew cask install java`
+5.	`brew install clojure`
+6.	`brew install leiningen`
 
 Part II. New Project and Setting Configuration
 
