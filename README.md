@@ -14,6 +14,7 @@ s.options.maxLogins = 50
 3.	Install [Atom](https://atom.io/)
 
 In Terminal, type:
+
 4.	`brew cask install java`
 5.	`brew install clojure`
 6.	`brew install leiningen`
@@ -23,10 +24,12 @@ In Terminal, type:
 In Terminal, type:
 1.	`cd Desktop`
 2.	`lein new myproj`
+
 NOTE: *myproj* can be changed to whatever name you desire; remember to change it in subsequent places as well!
 
 3.	`cd myproj`
 4.	`atom project.clj`
+
 NOTE: Atom (text editor) will open. Replace whatever is in the project.clj file with the code below, and save and quit:
 
 ~~~
@@ -36,8 +39,8 @@ NOTE: Atom (text editor) will open. Replace whatever is in the project.clj file 
 
 5.	`lein deps`
 6.	`atom src/myproj/core.clj`
-NOTE: Atom (text editor) will open. Replace whatever is in the core.clj file with the code below (which creates music), and save (don’t quit).
-In the future, 	this is the file that you should change to create your own music!
+
+NOTE: Atom (text editor) will open. Replace whatever is in the core.clj file with the code below (which creates music), and save (don’t quit). In the future, 	this is the file that you should change to create your own music!
 
 ~~~
 (ns myproj.core
@@ -52,7 +55,9 @@ In Terminal, type:
 2.	After the prompt user =>, type `(use 'overtone.live)` and hit Enter.
 3.	`(use ‘myproj.core :reload)` + Enter.
 4.	`(baz)` + Enter.
+
 NOTE: *baz* can be changed to whatever name you desire; remember to change it in other places as well (in the core.clj file)!
+
 5.	You should hear a sound if your file loaded correctly. Type `(stop)` and hit Enter to stop the sound.
 
 ## After...
