@@ -1,24 +1,24 @@
 Overtone Installations for Mac (5-10 min).
 ======
 
-# Part I. Software Installation
-1.	Install (https://brew.sh/, "Homebrew")
-2.	Install (https://supercollider.github.io/download, "Supercollider") and get it ready:
-⋅⋅1. Copy the following to the window “Untitled” on the left side:
+## Part I. Software Installation
+1.	Install [Homebrew] (https://brew.sh/)
+2.	Install [Supercollider] (https://supercollider.github.io/download) and get it ready:
+- 1. Copy the following to the window “Untitled” on the left side:
 ~~~
 s.boot;
 s.options.maxLogins = 50
 ~~~
-⋅⋅2.	Click Language > Evaluate File
+- 2.	Click Language > Evaluate File
 
-3.	Install (https://atom.io/, "Atom")
+3.	Install [Atom] (https://atom.io/)
 
 In Terminal, type:
 4.	`brew cask install java`
 5.	`brew install clojure`
 6.	`brew install leiningen`
 
-Part II. New Project and Setting Configuration
+## Part II. New Project and Setting Configuration
 
 In Terminal, type:
 1.	`cd Desktop`
@@ -45,7 +45,7 @@ In the future, 	this is the file that you should change to create your own music
 (definst baz [freq 440] (sin-osc freq))
 ~~~
 
-# Part III. Run Project
+## Part III. Run Project
 
 In Terminal, type: 
 1.	`lein repl`
@@ -55,16 +55,16 @@ In Terminal, type:
 NOTE: *baz* can be changed to whatever name you desire; remember to change it in other places as well (in the core.clj file)!
 5.	You should hear a sound if your file loaded correctly. Type `(stop)` and hit Enter to stop the sound.
 
-# After...
+## After...
 After the installation and creation of your first project…
 
 * Part I only needs to be done the first time you install this!
 * Part II should be done every new project you start. Then, move on to Part III.
-* Otherwise, when you are merely making changes to your projects, just do
-⋅⋅1. (Terminal) `cd Desktop`
-⋅⋅2. (Terminal) `cd myproj`
-⋅⋅3. `atom src/myproj/core.clj` (and modify the file)
+* Otherwise, when you are merely making changes to your projects, in Terminal type:
+- 1. `cd Desktop`
+- 2. `cd myproj`
+- 3. `atom src/myproj/core.clj` (and modify the file)
 If you want to try modifying the file to see how you can test another code, a good example is Dave’s class code. Just copy and paste in core.clj! Remember to save the file!
-⋅⋅4. Perform Part III.
+- 4. Perform Part III.
 
 
