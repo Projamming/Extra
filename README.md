@@ -63,7 +63,7 @@ NOTE: *baz* is the function that we are calling -- therefore, the name can chang
 
 5.	You should hear a sound if your file loaded correctly. Type `(stop)` and hit Enter to stop the sound.
 
-## Part IV. After...
+## Part IV. After Installation...
 After the installation and creation of your first project…for subsequent project, please note the following:
 
 * Part I only needs to be done the first time you install this!
